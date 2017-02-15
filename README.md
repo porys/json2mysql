@@ -10,7 +10,7 @@ This is simple application which imports json files located in data folder and i
 Create table in your mysql database
 
 #### eg. color and foos table
-
+`
 CREATE TABLE color(<br>
 color VARCHAR(10) NOT NULL,<br>
 value VARCHAR(4) NOT NULL,<br>
@@ -22,11 +22,11 @@ CREATE TABLE foos(<br>
 prop1 VARCHAR(10) NOT NULL,<br>
 prop2 VARCHAR(10) NOT NULL<br>
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;<br>
-
+`
 
 ### Step 2
 generate json file with table name and write data in the format below.<br>
-"`
+`
 [
  {
   "columnname":"value",
@@ -37,9 +37,9 @@ generate json file with table name and write data in the format below.<br>
   "columnname":"value"
  }
 ]
-`"
+`
 #### eg. color data with color and value column<br>
-"`
+`
 [
 	{
 		"color": "red",
@@ -50,6 +50,8 @@ generate json file with table name and write data in the format below.<br>
 		"value": "#0f0"
 	}
 ]
-`"
+`
 ## Step run application 
-npm start
+>> npm start
+insert into color set color = 'red', value = '#f00'
+insert into color set color = 'green', value = '#0f0'

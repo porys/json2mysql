@@ -11,16 +11,16 @@ Create table in your mysql database
 
 #### eg. color and foos table
 "`
-CREATE TABLE `color`(
-`color` VARCHAR(10) NOT NULL,
-`value` VARCHAR(4) NOT NULL,
- PRIMARY KEY (`color`)
+CREATE TABLE color(
+color VARCHAR(10) NOT NULL,
+value VARCHAR(4) NOT NULL,
+ PRIMARY KEY (color)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
-CREATE TABLE `foos`(
-`prop1` VARCHAR(10) NOT NULL,
-`prop2` VARCHAR(10) NOT NULL
+CREATE TABLE foos(
+prop1 VARCHAR(10) NOT NULL,
+prop2 VARCHAR(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 `"
 

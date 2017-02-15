@@ -10,22 +10,22 @@ This is simple application which imports json files located in data folder and i
 Create table in your mysql database
 
 #### eg. color and foos table
-"`
-CREATE TABLE color(
-color VARCHAR(10) NOT NULL,
-value VARCHAR(4) NOT NULL,
- PRIMARY KEY (color)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+CREATE TABLE color(<br>
+color VARCHAR(10) NOT NULL,<br>
+value VARCHAR(4) NOT NULL,<br>
+ PRIMARY KEY (color)<br>
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;<br>
+<br>
 
-CREATE TABLE foos(
-prop1 VARCHAR(10) NOT NULL,
-prop2 VARCHAR(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-`"
+CREATE TABLE foos(<br>
+prop1 VARCHAR(10) NOT NULL,<br>
+prop2 VARCHAR(10) NOT NULL<br>
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;<br>
+
 
 ### Step 2
-generate json file with table name and write data in the format below.
+generate json file with table name and write data in the format below.<br>
 "`
 [
  {
@@ -38,7 +38,7 @@ generate json file with table name and write data in the format below.
  }
 ]
 `"
-#### eg. color data with color and value column
+#### eg. color data with color and value column<br>
 "`
 [
 	{

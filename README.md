@@ -52,6 +52,7 @@ generate json file with table name and write data in the format below.<br>
 ]
 `
 ## Step run application 
->> npm start
-insert into color set color = 'red', value = '#f00'
-insert into color set color = 'green', value = '#0f0'
+>> npm start<br>
+found 2 files. <br>
+insert into color set color = 'red', value = '#f00'<br>
+insert into color set color = 'green', value = '#0f0'<br>
